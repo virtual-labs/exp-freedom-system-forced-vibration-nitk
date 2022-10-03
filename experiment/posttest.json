@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A two-degree-of-freedom system has",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "one normal mode",
+        "b": "two normal modes",
+        "c": "many normal modes",
+        "d": "three normal modes"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The equations of motion of a two-degree-of-freedom system are in general",
+      "answers": {
+        "a": "coupled",
+        "b": "uncoupled",
+        "c": "linear",
+        "d": "none of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "The configuration of a system vibrating at one of its natural frequencies is called",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "natural mode",
+        "b": "natural frequency",
+        "c": "solution",
+        "d": "all of these"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "The equations of motion of a two-degree-of-freedom system are in general in the form of",
+      "answers": {
+        "a": "coupled algebraic equations",
+        "b": "coupled differential equations",
+        "c": "uncoupled equations",
+        "d": "none of these"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
+    },
+    {
+     "question": "what is value of amplitude of vibration at node and antinode respectively",
+      "answers": {
+        "a": "zero, zero",
+        "b": "zero, maximum",
+        "c": "maximum, zero",
+        "d": "maximum,maximum"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
