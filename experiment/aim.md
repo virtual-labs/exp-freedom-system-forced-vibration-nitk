@@ -1,2 +1,2 @@
-To understand the behavior of 2DOF system with rotating unbalance under forced vibration
+To understand the behaviour of 2DOF system with rotating unbalanace under forced vibration
 
