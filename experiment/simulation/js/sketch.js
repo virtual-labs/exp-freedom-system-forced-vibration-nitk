@@ -77,7 +77,7 @@ function setup() {
     //phaseAng = new DynamicGraph(125, 495, 150, 290, "Phase Angle", "n", 0, 2.5, 0, 180, System.phase_func);
 
     F0 = new NumberInput(700, 180+20, "F(N)", 100,200, 150, 1,1, true);
-    w= new NumberInput(700, 230+20, "ω(rad/sec)", 1, 150, 2.8, 0.01,0.01, true);
+    w= new NumberInput(700, 230+20, "ω(rad/sec)", 1, 10, 2.8, 0.01,0.01, true);
    // k0 = new NumberInput(700, 270+30, "k0 (N/m)", 1000, 2000, 2000, 100,1, true);
     m1 = new NumberInput(700, 310, "m1(kg)", 100,200 ,200, 10,1, true);
     k1 = new NumberInput(700, 350+10, "k1 (N/m)", 1000, 2000, 2000, 100,1, true);
