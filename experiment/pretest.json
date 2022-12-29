@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "The number of distinct natural frequencies for an n-degree-of-freedom system can be",
+      "question": "The total number frequencies in a continuous system",
       "answers": {
         "a": "1",
         "b": "&infin;",
         "c": "n",
-        "d": "0"
-      },
-      "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "The characteristic equation of an n-degree-of-freedom system is a",
-      "answers": {
-        "a": "transcendental equation",
-        "b": "polynomial of degree n",
-        "c": "differential equation of order n",
-        "d": "none of these"
+        "d": "None of above"
       },
       "explanations": {
         "a": "",
@@ -36,12 +19,29 @@
       "difficulty": "beginner"
     },
     {
-      "question": "The fundamental natural frequency of a system is",
+      "question": "For a n-degree system the chracteristic equation is:",
       "answers": {
-        "a": "the largest value",
-        "b": "the smallest value",
-        "c": "any value",
-        "d": "none of these"
+        "a": "Transdental System",
+        "b": "Polynomial System",
+        "c": "Differential equation of order n",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a system, the fundamental natural frequency is:",
+      "answers": {
+        "a": "Highest Value",
+        "b": "Lowest Value",
+        "c": "Any Value",
+        "d": "None of above"
       },
       "explanations": {
         "a": "",
@@ -50,15 +50,15 @@
         "d": ""
       },
       "correctAnswer": "a",
-      "difficulty": "advanced"
+      "difficulty": "intermediate"
     },
     {
-      "question": "When a two-degree-of-freedom system is subjected to a harmonic force, the system vibrates at the",
+      "question": "A harmonic force acts upon a 2DOF system, the system vibrates at:",
       "answers": {
-        "a": "frequency of applied force",
-        "b": "smaller natural frequency",
-        "c": "larger natural frequency",
-        "d": "zero frequency"
+        "a": "Frequency at which force is applied",
+        "b": "Frequency smaller than natural frequency",
+        "c": "Frequency larger than natural frequency",
+        "d": "None of above"
       },
       "explanations": {
         "a": "",
@@ -67,15 +67,15 @@
         "d": ""
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-     "question": "The number of degrees of freedom of a vibrating system depends on",
+      "question": "For a vibrating system, the degrees of freedom depends on:",
       "answers": {
-        "a": "number of masses",
-        "b": "number of masses and degrees of freedom of each mass",
-        "c": "number of coordinates used to describe the position of each mass",
-        "d": "all of these"
+        "a": "Number of masses",
+        "b": "Number of masses and degrees of freedom of each mass",
+        "c": "Number of coordinates used to describe the position of each mass",
+        "d": "Frequency applied"
       },
       "explanations": {
         "a": "",
