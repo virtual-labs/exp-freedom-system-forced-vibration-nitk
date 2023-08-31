@@ -1,0 +1,2 @@
+## Reference
+1. C. Gibbons, “Blast loading: What is it and how do we use it?,” RedGuard,Available: https://blog.redguard.com/what-is-blast-load#:~:text=Simply%20put%2C%20it%20is%20the,be%20fatal%20to%20building%20occupants.  
