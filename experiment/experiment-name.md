@@ -1,1 +1,1 @@
-## Motor on a Foundation as a Two Degree of Freedom System - Forced vibration with rotating unbalance 
+## Motor on a Foundation as a 2DOF system - Forced Vibration with rotating unbalance

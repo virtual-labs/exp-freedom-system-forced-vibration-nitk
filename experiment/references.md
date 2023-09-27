@@ -13,9 +13,9 @@
 <td>Developer : Dr. K V Gangadharan | NITK</br></br>
 Contributors :
 <ul style="list-style-type: none;">
-<li> Sooraj Poojary | 191ME184 | NITK</li>
+<li> Sooraj Poojary   | 191ME184 | NITK</li>
 <li> Dr Susheel Kumar | NITK </li>
-<li> Nagaraja Kamath | 227ME004 | NITK </li>
+<li> Nagaraj Kamath   | 227ME004 | NITK </li>
 
 </ul></td>
   </tr>
