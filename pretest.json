@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "The total number frequencies in a continuous system",
+      "answers": {
+        "a": "1",
+        "b": "&infin;",
+        "c": "n",
+        "d": "None of above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a n-degree system the chracteristic equation is:",
+      "answers": {
+        "a": "Transdental System",
+        "b": "Polynomial System",
+        "c": "Differential equation of order n",
+        "d": "All the above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For a system, the fundamental natural frequency is:",
+      "answers": {
+        "a": "Highest Value",
+        "b": "Lowest Value",
+        "c": "Any Value",
+        "d": "None of above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A harmonic force acts upon a 2DOF system, the system vibrates at:",
+      "answers": {
+        "a": "Frequency at which force is applied",
+        "b": "Frequency smaller than natural frequency",
+        "c": "Frequency larger than natural frequency",
+        "d": "None of above"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For a vibrating system, the degrees of freedom depends on:",
+      "answers": {
+        "a": "Number of masses",
+        "b": "Number of masses and degrees of freedom of each mass",
+        "c": "Number of coordinates used to describe the position of each mass",
+        "d": "Frequency applied"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    }
+  ]
+}
