@@ -1,14 +1,27 @@
-1. Clicking on the simulation tab brings the user to the first page of simulation as shown below.
+### Procedure
 
-![](images/1.png)
+<div style="text-align:left">
+  Click on the Simulation icon <img src="images/simulation.png" alt="Alt text" style="height:80px; width:80px;">  to view the simulation. 
 
-Here the user can use the slider to set the values and the simulation of the spring-masss system will change accordingly.
-The comments section will show the first natural frequency &omega;<sub>1</sub> and second natural frequency &omega;<sub>2</sub>
+   ![Alt text](images/cap1.png)
+   
+   In order to view the variable section click on the Variable icon. <img src="images/var1.png" alt="Alt text" style="height:80px; width:80px;">
 
-<br> 
+   ![Alt text](images/cap2.png)
 
-2. On clicking the graph button next to the play button will take the user to the next page where the mode shapes are displayed.
+   Click on the Results icon  <img src="images/result.png" alt="Alt text" style="height:80px;width:80px;"> to view the result tab.
+  
+  ![Alt text](images/cap3.png)
 
-![](images/2.png)
+   Click on Play icon <img src="images/play1.png" alt="Alt text" style="height:80px; width:80px;"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text" style="height:80px; width:80px;"> to stop it.
 
-The comment section shows X<sub>1</sub> and X<sub>2</sub> which are the amplitudes of two masses respectively and their ratio.
+
+
+ 
+   Click on the Graph icon  <img src="images/graph1.png" alt="Alt text" style="height:80px; width:80px;"> to view the graph.  
+
+   ![Alt text](images/cap4.png)
+
+
+
+</div>
