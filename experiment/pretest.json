@@ -6,14 +6,14 @@
       "answers": {
         "a": "1",
         "b": "&infin;",
-        "c": "n",
+        "c": "2",
         "d": "None of above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). The no. of frequencies in Single DOF is 1.",
+        "b": "Correct, the right answer is (b). The total no. of frequencies in a continuous system is &infin; since the continuous system will have multiple nodes and mode shapes.",
+        "c": "The right answer is (b). The no. of frequencies in two DOF is 2.",
+        "d": "The right answer is (b). The total no. of frequencies in a continuous system is &infin; since the continuous system will have multiple nodes and mode shapes."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "All the above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). The term “transcendental system” is not commonly used in the context of characteristic equations for mechanical or structural systems.",
+        "b": "Correct, the right answer is (b). For an n-degree system, the characteristic equation is a polynomial equation. It relates to the natural frequencies (eigenvalues) of the system.",
+        "c": "The right answer is (b). Differential equations of order n (such as (n)-th order linear differential equations) describe the system’s behavior but do not directly yield natural frequencies.",
+        "d": "The right answer is (b). For an n-degree system, the characteristic equation is a polynomial equation. It relates to the natural frequencies (eigenvalues) of the system."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -44,12 +44,12 @@
         "d": "None of above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). The fundamental natural frequency (also known as the first mode natural frequency) corresponds to the lowest possible frequency at which a system can vibrate.",
+        "b": "Correct, the right answer is (b). The fundamental natural frequency (also known as the first mode natural frequency) corresponds to the lowest possible frequency at which a system can vibrate.",
+        "c": "The right answer is (b). The fundamental natural frequency (also known as the first mode natural frequency) corresponds to the lowest possible frequency at which a system can vibrate.",
+        "d": "The right answer is (b). The fundamental natural frequency (also known as the first mode natural frequency) corresponds to the lowest possible frequency at which a system can vibrate."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
@@ -61,12 +61,12 @@
         "d": "None of above"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a). When a harmonic force (external force with a sinusoidal time variation) acts upon a 2-DOF (Two-Degree-of-Freedom) system, the system vibrates at the same frequency as the applied force.",
+        "b": "The right answer is (a). When the applied force frequency is smaller than the natural frequency, the system does not resonate. Instead, it responds with a smaller amplitude, and the phase difference between the force and displacement is not 180 degrees.",
+        "c": "The right answer is (a). If the applied force frequency were larger than the natural frequency, the system would still vibrate, but not necessarily in resonance. The amplitude would be smaller compared to resonance.",
+        "d": "The right answer is (a). When a harmonic force (external force with a sinusoidal time variation) acts upon a 2-DOF (Two-Degree-of-Freedom) system, the system vibrates at the same frequency as the applied force."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
@@ -78,10 +78,10 @@
         "d": "Frequency applied"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (c). The degrees of freedom (DOF) in a vibrating system refer to the independent coordinates required to describe the system’s motion.",
+        "b": "The right answer is (c). The degrees of freedom (DOF) in a vibrating system refer to the independent coordinates required to describe the system’s motion.",
+        "c": "Correct, the right answer is (c). The degrees of freedom (DOF) in a vibrating system refer to the independent coordinates required to describe the system’s motion.",
+        "d": "The right answer is (c). The degrees of freedom (DOF) in a vibrating system refer to the independent coordinates required to describe the system’s motion."
       },
       "correctAnswer": "c",
       "difficulty": "advanced"

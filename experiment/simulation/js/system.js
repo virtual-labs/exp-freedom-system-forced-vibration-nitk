@@ -1,3 +1,4 @@
+
 class System  {
     constructor(x, y, _w, _h){
         this.width = _w;
@@ -57,11 +58,11 @@ class System  {
     this.x2 = -((this.k1)*this.F0)/this.denom;
     this.w1 = Math.pow((this.k2/(this.m1)) , 0.5);
     this.w2 = Math.pow((this.k2 + 2*this.k1)/this.m1 , 0.5);
-    console.log("the value of denom , " , this.denom);
-    console.log("the value of x2" , this.x2);
-    console.log("the value of x1" , this.x1);
-    console.log("the value of w1 " , this.w1);
-    console.log("the value of w2" , this.w2);
+    // console.log("the value of denom , " , this.denom);
+    // console.log("the value of x2" , this.x2);
+    // console.log("the value of x1" , this.x1);
+    // console.log("the value of w1 " , this.w1);
+    // console.log("the value of w2" , this.w2);
 
      
 
@@ -152,7 +153,7 @@ class System  {
 
 
    fill(255, 0, 0);
-   ellipse(459 +x  ,constant+this.y_equilibrium -50 -(2*hei) +this.y2-15-20 + y, 6, 6);
+   ellipse(460 +x  ,constant+this.y_equilibrium -50 -(2*hei) +this.y2-15-20 + y, 6, 6);
 
 
 
