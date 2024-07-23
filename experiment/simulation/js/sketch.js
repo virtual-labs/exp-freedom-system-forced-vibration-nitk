@@ -31,6 +31,7 @@ function simstate() {
     document.querySelector(".graph-one").classList.remove("display-hide");
     // document.querySelector(".graph-two").classList.remove("display-hide");
     document.querySelector(".graph-div span").textContent = "Prev";
+    // document.querySelector(".graph-div span").setAttribute("title", "Prev");
     document.querySelector(".graph-button").style.display = "none";
     screenchangePhase();
     // phaseAngleGraph();

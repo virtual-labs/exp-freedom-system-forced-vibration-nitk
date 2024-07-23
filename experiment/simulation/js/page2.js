@@ -158,10 +158,10 @@ function runPage2() {
     if((spring1.x1*400)< -300 ||(spring1.x1*400)>300||(spring1.x2*400) < -300 ||(spring1.x2*400) > 300){
         // fill(0);
         console.log(spring1.x1);
-        textSize(10);
+        textSize(16);
         strokeWeight(0.8); 
         stroke(0,0,0);  
-        text("Warning: The solution goes out of bounds as it's reaching the resonance",125,444);
+        text("Warning: The solution goes out of bounds as it's reaching the resonance",25,444);
     }
     }
 

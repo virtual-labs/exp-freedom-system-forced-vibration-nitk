@@ -37,7 +37,7 @@ h1 {
 
 .title-div h1 {
   justify-self: center;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   color: var(--clr-text-clr);
   text-transform: uppercase;
 }
@@ -64,6 +64,7 @@ h1 {
   padding: 1.2rem 1.6rem;
   border-radius: 0.9rem;
   left: 0;
+  cursor: pointer;
 }
 
 .logo-div {

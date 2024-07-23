@@ -89,7 +89,56 @@ document.getElementById("wd").textContent=spring1.w1.toFixed(4);
   strokeWeight(0.5);
   textFont("'Nunito', sans-serif ");
   text("FORCED VIBRATION SYSTEM", 190, 90);
+  if(abs(spring1.w-spring1.w1)<=0.5 || abs(spring1.w - spring1.w2)<=0.5)
+    {
 
+    strokeWeight(2);
+    //stroke(0);
+    // line(300,150,300,430);
+    // stroke(0,0,255);
+    
+    // line(300,250,300+(spring1.x1*400),250);
+    // line(300,350,300+(spring1.x2)*400,350);
+    // console.log(spring1.x1*400);
+
+    // stroke(255,0,0);
+    // line(300,150,300+(spring1.x1*400),250);
+    // line(300+(spring1.x1*400),250,300+(spring1.x2*400),350);
+    // line(300+(spring1.x2)*400,350,300,430);
+    
+    if((spring1.x1*400)< -300 ||(spring1.x1*400)>300||(spring1.x2*400) < -300 ||(spring1.x2*400) > 300){
+        // fill(0);
+        console.log(spring1.x1);
+        textSize(16);
+        strokeWeight(0.8); 
+        stroke(0,0,0);  
+        text("Warning: The solution goes out of bounds as it's reaching the resonance",25,444);
+    }
+
+    }
+    else{
+    
+  //   strokeWeight(2);
+  //   stroke(0);
+  //   line(300,150,300,430);
+  //  stroke(0,0,255);
+  //   // console.log("the  value of x1 in spring  1 " , spring1.x1);
+  //   // console.log("the value of  x2 in  spring 2 " , spring1.x2);
+  //   line(300,250,300+(spring1.x1*400),250);
+  //   line(300,350,300+(spring1.x2*400),350);
+  //   stroke(255,0,0);
+  //   line(300,150,300+(spring1.x1*400),250);
+  //   line(300+(spring1.x1*400),250,300+(spring1.x2*400),350);
+  //   line(300+(spring1.x2*400),350,300,430);
+    if((spring1.x1*400)< -300 ||(spring1.x1*400)>300||(spring1.x2*400) < -300 ||(spring1.x2*400) > 300){
+        // fill(0);
+        console.log(spring1.x1);
+        textSize(16);
+        strokeWeight(0.8); 
+        stroke(0,0,0);  
+        text("Warning: The solution goes out of bounds as it's reaching the resonance",25,444);
+    }
+    }
 //   F0.draw();
 //   w.draw();
 //  // k0.draw();
