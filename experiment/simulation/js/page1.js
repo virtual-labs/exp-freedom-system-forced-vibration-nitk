@@ -40,15 +40,15 @@ function runPage1() {
   spring1.update(t, factor);
   spring1.show(0, 1, 0);
 
-  text("k\u2081" , 500 , 250 + spring1.y2);
-  text("k\u2082" , 500 , 350 + spring1.y1);
-  text("m\u2081" , 380 , 220 + spring1.y2);
-  text("m\u2082" , 380 , 320 + spring1.y1);
+  text("k\u2081" , 500 , 250 + spring1.y1);
+  text("k\u2082" , 500 , 350 + spring1.y2);
+  text("m\u2081" , 380 , 220 + spring1.y1);
+  text("m\u2082" , 380 , 320 + spring1.y2);
 
-  position_graph1.update(spring1.y1);
+  position_graph1.update(spring1.y2);
   position_graph1.draw(255, 0,0)
 
-  position_graph2.update(spring1.y2);
+  position_graph2.update(spring1.y1);
   position_graph2.draw(255, 0, 0)
 
   strokeWeight(0)

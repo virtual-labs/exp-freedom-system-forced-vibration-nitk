@@ -100,14 +100,14 @@ class System  {
   let constant = 150;
 
   // spring
-  image(spr, this.x_equilibrium - (wid/2)+10, constant+this.y_equilibrium -12.5 -hei-10 +this.y1+10 , wid, hei-this.y1+10);
+  image(spr, this.x_equilibrium - (wid/2)+10, constant+this.y_equilibrium -12.5 -hei-10 +this.y2+10 , wid, hei-this.y2+10);
   fill(0,0,0)
   textSize(15)
   //text("K1",this.x_equilibrium - (wid/2)-30, constant+this.y_equilibrium -12.5 -(hei/2) +this.y1+10)
   
   
-  image(spr, this.x_equilibrium -(wid/2)-10,constant+ this.y_equilibrium -12.5-25 -(2*hei) + this.y2 -10-5-9, wid, hei-this.y2 + this.y1)
-  image(spr, this.x_equilibrium -(wid/2)+30, constant+this.y_equilibrium -12.5-25 -(2*hei) + this.y2 -10-5-9, wid, hei-this.y2 + this.y1)
+  image(spr, this.x_equilibrium -(wid/2)-10,constant+ this.y_equilibrium -12.5-25 -(2*hei) + this.y1 -10-5-9, wid, hei-this.y1 + this.y2)
+  image(spr, this.x_equilibrium -(wid/2)+30, constant+this.y_equilibrium -12.5-25 -(2*hei) + this.y1 -10-5-9, wid, hei-this.y1 + this.y2)
   //image(spr,this.x_equilibrium -(wid/2) ,this.y_equilibrium -(this.h/2) +this.y1 , this.width-20, this.h)
  
   fill(0,0,0)
@@ -126,21 +126,21 @@ class System  {
   fill(_fill);
   rectMode(CENTER)
   fill(139,69,19);
-  rect(this.x_equilibrium+10 ,constant+this.y_equilibrium -(this.h/2) -hei +this.y1 -(this.h/2) -12, this.width-20+10+20, this.h+25) // bottom mass
+  rect(this.x_equilibrium+10 ,constant+this.y_equilibrium -(this.h/2) -hei +this.y2 -(this.h/2) -12, this.width-20+10+20, this.h+25) // bottom mass
   fill(105,105,0)
   textSize(12)
   //text("m1",this.x_equilibrium-5+10 ,-10+this.y_equilibrium -(this.h/2) -hei +this.y1 -(this.h/2))
 
   rectMode(CENTER)
   fill(139,69,19);
-  rect(this.x_equilibrium +10,constant+this.y_equilibrium -50 -(2*hei) +this.y2-15-10-12, this.width-20+10+20, this.h+25) // top mass
+  rect(this.x_equilibrium +10,constant+this.y_equilibrium -50 -(2*hei) +this.y1-15-10-12, this.width-20+10+20, this.h+25) // top mass
  // text("m2",this.x_equilibrium-80,250+this.y_equilibrium -50 -(2*hei) + this.y2-5)
   
   fill(255,255,255);
   textSize(12)
   
  
-  ellipse(370+50 +40,constant+this.y_equilibrium -50 -(2*hei) +this.y2-15-20, 32, 32);
+  ellipse(370+50 +40,constant+this.y_equilibrium -50 -(2*hei) +this.y1-15-20, 32, 32);
   //fill(255,0,255);
   //rect(this.x_equilibrium - this.width/2, this.y_equilibrium + this.y2 +this.h+50, this.width, this.h)
   
@@ -153,7 +153,7 @@ class System  {
 
 
    fill(255, 0, 0);
-   ellipse(460 +x  ,constant+this.y_equilibrium -50 -(2*hei) +this.y2-15-20 + y, 6, 6);
+   ellipse(460 +x  ,constant+this.y_equilibrium -50 -(2*hei) +this.y1-15-20 + y, 6, 6);
 
 
 

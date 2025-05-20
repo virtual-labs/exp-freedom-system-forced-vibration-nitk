@@ -74,7 +74,7 @@ function simstate() {
     //   document.getElementById("cleargraph").style.visibility = "hidden";
   
       document.querySelector(".graph-zero").classList.remove("display-hide");
-      document.querySelector(".graph-button span").textContent = "Graph";
+      document.querySelector(".graph-button span").textContent = "Next";
       
       document.querySelector(".graph-div").classList.add("display-hide");
     // }
@@ -173,7 +173,7 @@ function setup() {
    strokeWeight(2);
     position_graph1 = new Graph(50, 350, 100, 220, "x\u2082", "t");
 
-    position_graph2 = new Graph(50, 150, 100, 220, "x\u2081", "t");
+    position_graph2 = new Graph(50, 200, 100, 220, "x\u2081", "t");
 
     magFac1 = new DynamicGraph(50+20, 400+50, 300, 220, "X\u2081/Xst", "ω/ω\u2082", 0,7,0,10, System.mag_func1);
     magFac2 = new DynamicGraph(50+20, 400+50, 300, 220, "X\u2082/Xst", "ω/ω\u2082",0, 7,0,10, System.mag_func2);

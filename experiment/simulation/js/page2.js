@@ -60,7 +60,7 @@ function runPage2() {
     text('Motor on a Foundation  as 2DOF System ',180, 30);
     text('Forced Vibration with rotating unbalance' , 180 , 50);
 
-    textSize(16);
+    textSize(14);
     //fill(250, 114, 43);
     // text("CONTROLS", 750, 540);
     // text("VARIABLES", 730, 130);
@@ -101,7 +101,7 @@ function runPage2() {
     textSize(16);
     strokeWeight(0.5);
     stroke(0,0,0);
-    text("MODE SHAPE", 255, 100);
+    text("AMPLITUDE RATIO", 255, 100);
     textSize(15);
     strokeWeight(1); 
     stroke(0,0,0);  

@@ -14,6 +14,6 @@
 
 4. Click on Play icon <img src="images/play1.png" alt="Alt text"> to run the simulation and click on Pause icon <img src="images/pause.png" alt="Alt text"> to stop it.
 
-5. Click on the Graph icon <img src="images/graph1.png" alt="Alt text"> to view the graph.
+5. Click on the Graph icon <img src="images/next2.png" alt="Alt text"> to view the graph.
 
    ![Alt text](images/cap4.png)
