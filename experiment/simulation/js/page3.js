@@ -46,18 +46,18 @@ function runPage3() {
 
   fill(0);
   push();
-  textSize(30);
+  textSize(14);
   textFont("Comic Sans MS");
   text('Motor on a Foundation  as 2DOF System ',200, 50);
   text('Forced Vibration with rotating unbalance' , 200 , 80);
 
 
-  textSize(16);
+  textSize(14);
   text("CONTROLS", 750, 540);
   text("VARIABLES", 730, 130);
   pop();
 
-  textSize(15);
+  textSize(14);
   fill(250, 114, 43);
   strokeWeight(0);
   text('ω1 = ' + spring1.w2.toFixed(4) + " rad/s", 310, 680);

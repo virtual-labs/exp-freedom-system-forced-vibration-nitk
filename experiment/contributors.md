@@ -7,15 +7,15 @@
 |  1   | Dr. K V Gangadharan |   NITK    | Department of Mechanical Engineering |
 |  2   | Dr. Jeyaraj P       |   NITK    | Department of Mechanical Engineering |
 
-### Lab Developers:
 
-| SNo. |      Name      | Institute |
-| :--: | :------------: | :-------: |
-|  1   | Sooraj Poojary |   NITK    |
 
-### Content Developers:
+### Developers:
 
 | SNo. |       Name        | Institute |
 | :--: | :--------------:  | :-------: |
-|  1   | Dr. Susheel Kumar |   NITK    |
-|  2   |  Nagaraj Kamath   |   NITK    |
+|  1   | Sooraj Poojary |   NITK    |
+|  2   | Dr. Susheel Kumar |   NITK    |
+|  3   |  Nagaraj Kamath   |   NITK    |
+| 4   | Varun   |   NITK    |
+|  5   |  Akshaya  |   NITK    |
+|  6   |  Anusha B Salian   |   NITK    |
