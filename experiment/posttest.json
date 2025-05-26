@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "How many modes does a 2DOF system have:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "One normal mode",
+        "b": "Two normal modes",
+        "c": "Multiple normal modes",
+        "d": "No normal modes"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The right answer is (b). A single DOF system will have one normal mode.",
+        "b": "Correct, the right answer is (b). A 2DOF system will have two normal modes.",
+        "c": "The right answer is (b). Multiple DOF system will have multiple normal modes.",
+        "d": "The right answer is (b). There should be a normal mode and it is two normal modes for 2DOF system."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "A system is vibrating at one of its natural frequency, it's configuration is called:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Natural mode",
+        "b": "Natural Frequency",
+        "c": "Solution",
+        "d": "All the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct, the right answer is (a). When a system vibrates at one of its natural frequencies, it is said to be in a natural mode. These natural modes correspond to the inherent vibrational patterns of the system, unaffected by external forces.",
+        "b": "The right answer is (a). The natural frequency of an oscillatory system refers to the rate at which it tends to vibrate in the absence of any external disturbance.",
+        "c": "The right answer is (a). Solution is the answer for any equation of motion in th context of vibration.",
+        "d": "The right answer is (a). When a system vibrates at one of its natural frequencies, it is said to be in a natural mode."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "For a 2DOF system, the equation of motions are in the form of:",
+      "answers": {
+        "a": "coupled algebraic equations",
+        "b": "coupled differential equations",
+        "c": "uncoupled equations",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "The right answer is (b). Coupled algebraic Riccati equations arise when solving optimal control problems. For instance, minimizing the quadratic cost in jump linear systems involves solving these equations with specific constraints.",
+        "b": "Correct, the right answer is (b). For a 2DOF system, the equation of motions are in the form of coupled differential equation because in 2DOF system, one mass movement is dependent on another mass' movement.",
+        "c": "The right answer is (b). Uncoupled equations are used in single DOF vibrational system.",
+        "d": "The right answer is (b). For a 2DOF system, the equation of motions are in the form of coupled differential equation because in 2DOF system, one mass movement is dependent on another mass' movement."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "At node and antinode, the amplitude is:",
+      "answers": {
+        "a": "zero, zero",
+        "b": "zero, maximum",
+        "c": "maximum, zero",
+        "d": "maximum,maximum"
+      },
+      "explanations": {
+        "a": "The right answer is (b). At node, the amplitude is zero. This is where the system will not have any excitation. At Anti-node, the amplitude will be at maximum. Thsi is where the system will excite at maximum level.",
+        "b": "Correct, the right answer is (b). At node, the amplitude is zero. This is where the system will not have any excitation. At Anti-node, the amplitude will be at maximum. Thsi is where the system will excite at maximum level.",
+        "c": "The right answer is (b). At node, the amplitude is zero. This is where the system will not have any excitation. At Anti-node, the amplitude will be at maximum. Thsi is where the system will excite at maximum level.",
+        "d": "The right answer is (b). At node, the amplitude is zero. This is where the system will not have any excitation. At Anti-node, the amplitude will be at maximum. Thsi is where the system will excite at maximum level."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following statements is true?",
+      "answers": {
+        "a": "The system will always exhibit resonance at the natural frequency of the first mode.",
+        "b": "The second mode shape of the system will have a higher natural frequency than the first mode.",
+        "c": "The damping ratio affects the amplitude of vibrations in both modes.",
+        "d": "The stiffness matrix for this system will be diagonal."
+      },
+      "explanations": {
+        "a": "The right answer is (c). The system can resonate in any mode. Either in first mode or second mode or both.",
+        "b": "The right answer is (c). The first mode's frequency can be higher than the second mode. There is no way to say that only the natural frequency of second mode is higher than first mode.",
+        "c": "Correct, the right answer is (c). In a 2-DOF system, there are two natural frequencies (first mode and second mode) and corresponding mode shapes. The damping ratio influences the rate of energy dissipation and affects the amplitude of vibrations in both modes.",
+        "d": "The right answer is (c). The stiffness matrix for a 2-DOF system is generally not diagonal unless the modes are uncoupled (i.e., no cross-coupling between modes)."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "advanced"
     }
   ]
 }
