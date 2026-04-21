@@ -1,0 +1,1 @@
+## Motor on a Foundation as a 2DOF system - Forced Vibration with rotating unbalance
